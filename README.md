@@ -51,13 +51,13 @@ pip install numpy pandas scikit-learn seaborn matplotlib
 
 1. Depoyu klonlayın:
    ```bash
-   git clone https://github.com/kullanıcıadı/diyabet-tahmin.git
-   cd diyabet-tahmin
+   git clone https://github.com/halilcanoksuz66/Diabetes-Prediction.git
+   cd Diabetes-Prediction
    ```
 
-2. Modelleri eğitmek ve performanslarını değerlendirmek için `diyabet_tahmin.py` script'ini çalıştırın:
+2. Modelleri eğitmek ve performanslarını değerlendirmek için `Proje.ipynb` script'ini çalıştırın:
    ```bash
-   python diyabet_tahmin.py
+   jupyter notebook Proje.ipynb
    ```
 
 Script, farklı modellerin performans sonuçlarını (doğruluk oranları) gösterecek ve her model için karışıklık matrisi (confusion matrix) çıktısını verecektir.
@@ -70,6 +70,6 @@ Modellerin performansı şu metriklerle değerlendirilebilir:
 - **Duyarlılık (Recall)**: Gerçek pozitiflerin ne kadarının doğru tahmin edildiği.
 - **F1 Skoru**: Hassasiyet ve duyarlılığın harmonik ortalaması.
 
-## Lisans
+**📩 İletişim**
 
-Bu proje MIT Lisansı ile lisanslanmıştır - detaylar için [LICENSE](LICENSE) dosyasına bakın.
+Eğer herhangi bir sorunuz veya geri bildiriminiz varsa, benimle iletişime geçmekten çekinmeyin!
